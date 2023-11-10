@@ -1,0 +1,93 @@
+.exibirCarro {
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+}
+
+.exibirCarro img {
+    width: 100%;
+}
+
+
+
+.bloqueado {
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  .bloqueado input {
+    width: 100%;
+  }
+  
+
+.checkpersonali {
+    width: 5% !important;
+}
+
+.registro {
+    background-color: red;
+    margin-bottom: 50%;
+}
+
+#image-preview {
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.minhaImagem {
+    background-color: white;
+    border-radius: 10%;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.minhaImagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.principalImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secundariosInput {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    order: -1;
+    margin-top: 1rem;
+}
+
+
+.form-group {
+    padding: 0.5rem;
+}
+
+.secundariosInput input, .secundariosInput select {
+    width: 70%;
+ }
+ 
+ .selecionar button{
+    margin-left: 1.2rem;
+ }
+
+ .buttonModal {
+    border-radius: 20px !important;
+    background-color: transparent !important;
+    border: none !important;
+    color: #171717 !important;
+    font-size: 1.5rem !important;
+ }
+ 
+
+ .urlDownload {
+    width: 100% !important;
+ }
+ 
+
+ #comentario {
+    width: 100% !important;
+ }
